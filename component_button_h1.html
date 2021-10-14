@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #efe6e4;
+        }
+        .button_h1{
+            width:250px;
+            height:75px;
+            border-radius:5px;
+            background-color: #dfb9b0;
+            color:#515151;
+            font-size: 24px;
+            border:none;
+            box-shadow: 4px 4px 5px 0 rgba(0,0,0,.3);
+            transition:.2s;
+        }
+        .button_h1::after,
+        .button_h1::before{
+            content:'';
+            width:30px;
+            height:30px;
+        }
+        .button_h1>span{
+            display:block;
+            font-size: 14px;
+        }
+        .button_h1:hover{
+            background-color:#f4e9c9 ;
+            cursor: pointer;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <button class="button_h1">進入投票<span>gogogo</span></button>
+</body>
+</html>
